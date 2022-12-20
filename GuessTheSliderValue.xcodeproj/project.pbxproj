@@ -11,6 +11,7 @@
 		E4146C9829523C9D00C862F0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4146C9729523C9D00C862F0 /* ContentView.swift */; };
 		E4146C9A29523C9F00C862F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4146C9929523C9F00C862F0 /* Assets.xcassets */; };
 		E4146C9D29523C9F00C862F0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4146C9C29523C9F00C862F0 /* Preview Assets.xcassets */; };
+		E4146CA429524E2100C862F0 /* SliderWithColorThumb.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4146CA329524E2100C862F0 /* SliderWithColorThumb.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		E4146C9729523C9D00C862F0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E4146C9929523C9F00C862F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4146C9C29523C9F00C862F0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E4146CA329524E2100C862F0 /* SliderWithColorThumb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderWithColorThumb.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				E4146C9529523C9D00C862F0 /* GuessTheSliderValueApp.swift */,
 				E4146C9729523C9D00C862F0 /* ContentView.swift */,
+				E4146CA329524E2100C862F0 /* SliderWithColorThumb.swift */,
 				E4146C9929523C9F00C862F0 /* Assets.xcassets */,
 				E4146C9B29523C9F00C862F0 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4146CA429524E2100C862F0 /* SliderWithColorThumb.swift in Sources */,
 				E4146C9829523C9D00C862F0 /* ContentView.swift in Sources */,
 				E4146C9629523C9D00C862F0 /* GuessTheSliderValueApp.swift in Sources */,
 			);
