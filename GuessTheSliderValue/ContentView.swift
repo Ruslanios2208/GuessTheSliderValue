@@ -10,7 +10,6 @@ import SwiftUI
 struct ContentView: View {
     @State private var targetValue = Int.random(in: 50...100)
     @State private var currentValue: Double = 50
-    @State private var alpha: Double = 1
     @State private var showAlert = false
     
     var body: some View {
@@ -19,10 +18,7 @@ struct ContentView: View {
             
             HStack {
                 Text("0")
-                SliderWithColorThumb(value: $currentValue, alpha: $alpha)
-                    .onChange(of: currentValue) { _ in
-                        computeAlpha()
-                    }
+                SliderWithColorThumb(value: $currentValue, alpha: computeAlpha())
                 Text("100")
             }
             
@@ -46,8 +42,8 @@ struct ContentView: View {
         return 100 - difference
     }
     
-    private func computeAlpha() {
-        alpha = Double(computeScore()) / 100
+    private func computeAlpha() -> Double {
+        Double(computeScore()) / 100
     }
 }
 

@@ -9,7 +9,7 @@ import SwiftUI
 
 struct SliderWithColorThumb: UIViewRepresentable {
     @Binding var value: Double
-    @Binding var alpha: Double
+    var alpha: Double
     
     func makeUIView(context: Context) -> UISlider {
         let slider = UISlider()
@@ -49,6 +49,6 @@ extension SliderWithColorThumb {
 
 struct SliderWithColorThumb_Previews: PreviewProvider {
     static var previews: some View {
-        SliderWithColorThumb(value: .constant(50), alpha: .constant(1))
+        SliderWithColorThumb(value: .constant(50), alpha: 1)
     }
 }
